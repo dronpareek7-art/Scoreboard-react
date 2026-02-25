@@ -1,16 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
-   color: rgb(13, 220, 96);
-  background-image: url(./assets/Cricket\ ground\ image.png);
+  background-image: url("./assets/Cricket ground image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
-   font-size: 30px;
+  min-height: 100vh;
+}
+
+/* Form Container */
+.container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Inputs & Select */
+.container input,
+.container select {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Add Button */
+.container button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: darkgreen;
+}
+
+/* Player List */
+ul {
+  width: 80%;
+  margin: 20px auto;
+  list-style: none;
+}
+
+li {
+  background: rgba(0, 255, 255, 0.8);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+li button:nth-child(4) {
+  background: red;
+  color: white;
+}
+
+li button:nth-child(5) {
+  background: green;
+  color: white;
+}
+
+li button:nth-child(6) {
+  background: orange;
+  color: black;
 }

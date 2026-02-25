@@ -72,7 +72,8 @@ const sortedPlayer = [...player].sort((a,b)=> b.Score - a.Score)
           <option value="India">India</option>
           <option value="Australia">Australia</option>
           <option value="Pakistan">Pakistan</option>
-          <option value="South korea">south korea</option>
+          <option value="South Africa">South Africa</option>
+          <option value="New Zealand">New Zealand</option>
         </select>
         <input
           type="number"
