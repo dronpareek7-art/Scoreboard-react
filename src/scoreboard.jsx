@@ -45,7 +45,7 @@ const Scoreboard = () => {
   );
 }
 
-const sortedPlayer = [...player].sort((a,b)=> b.Score - a.Score)
+const sortedPlayer = [...player].sort((a,b)=> b.Score - a.Score)    
 
   return (
     <>
